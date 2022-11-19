@@ -1,3 +1,5 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 .container-fluid {
   padding: 0px !important;
 }
@@ -15,6 +17,7 @@
 .card-container .card {
   border-radius: 0px;
   cursor: pointer !important;
+  border: none !important;
 }
 .card-container .card-body {
   padding: 0px;
@@ -46,4 +49,17 @@
 }
 .card-container .card:hover .overlay {
   opacity: 0.8;
+}
+.cart-buttons button 
+{
+  border-radius: 0px;
+}
+.details-text
+{
+  text-align: justify;
+}
+.detail-image img
+{
+  width: 300px;
+  height: 400px;
 }
